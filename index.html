@@ -49,12 +49,8 @@
 
   <article class="block">
     <h2>Interviews</h2>
-    <p>Three initial interviews, plus additional short conversations, surfaced two distinct, recurring failure patterns rather than one single complaint:</p>
+    <p>Three structured interviews, plus supplementary conversations with additional commuters, surfaced one dominant, recurring failure pattern:</p>
     <div class="quote-grid">
-      <blockquote>
-        <p>People aren't sure beforehand if they actually want to go — and at the last minute, they ditch.</p>
-        <cite>— Elizabeth</cite>
-      </blockquote>
       <blockquote>
         <p>I just text in the WhatsApp group, but people aren't very active there — I usually end up going alone. I'm even ready to share a cab with someone outside campus.</p>
         <cite>— Aaryan Rai, weekly commuter to Pune</cite>
@@ -64,7 +60,7 @@
         <cite>— additional interviewee</cite>
       </blockquote>
     </div>
-    <p>Every other person spoken to described the same fallback behavior: ask friends directly, or call/text individually when the group chat fails — confirming there is no real system in place, only informal one-off outreach.</p>
+    <p>Every other person spoken to described the same fallback behavior: post once in a group chat, receive no timely response, then default to calling or texting individual friends directly — or simply traveling alone. There is no real system in place, only informal, one-off outreach through a single channel that is frequently too quiet to work.</p>
   </article>
 
   <article class="block">
@@ -76,11 +72,9 @@
         <dt>Current behavior</dt>
         <dd>Posts once in a WhatsApp group and waits. The group is inactive, so he usually ends up going alone.</dd>
         <dt>Key structural trait</dt>
-        <dd>Willing to share a ride with someone outside his friend circle entirely — the problem is not "who's my friend," it's discovery beyond one small, quiet group.</dd>
-        <dt>Secondary pain</dt>
-        <dd>Even when someone does respond, that "yes" isn't reliable — people commonly confirm and then ditch at the last minute.</dd>
+        <dd>Willing to share a ride with someone outside his friend circle entirely — the problem is not "who's my friend," it's visibility beyond one small, quiet group.</dd>
         <dt>Goal</dt>
-        <dd>Reliably find a genuinely committed co-traveler before he has to leave, without depending on one inactive group chat.</dd>
+        <dd>Reliably find a co-traveler before he has to leave, without depending on a single inactive group chat as his only channel.</dd>
       </dl>
     </div>
   </article>
@@ -88,7 +82,7 @@
   <article class="block">
     <h2>Empathy map</h2>
     <figure>
-      <img src="images/empathy-map.jpg" alt="Hand-drawn empathy map for Rohan divided into four quadrants — Say, Think, Do, Feel — capturing real interview quotes about WhatsApp group inactivity, uncertainty about being seen in time, the fallback of posting once then giving up, and the emotional arc from hopeful to anxious to frustrated to resigned.">
+      <img src="images/empathy-map.jpg" alt="Hand-drawn empathy map for Rohan divided into four quadrants — Say, Think, Do, Feel — capturing real interview quotes about the WhatsApp group being inactive, uncertainty about being seen in time, the fallback of posting once then giving up, and the emotional arc from hopeful to anxious to resigned.">
       <figcaption>Empathy map built from real interview data — Say / Think / Do / Feel.</figcaption>
     </figure>
   </article>
@@ -118,16 +112,16 @@
 
   <article class="block highlight-block">
     <h2>Core pain point</h2>
-    <p class="pain-point">Commuters have no reliable, low-effort way to see who's actually committed to a shared route in real time. Visibility is limited to one inactive friend group, a "yes" isn't trustworthy until the last minute, and people won't reliably maintain their own status manually — so any solution that depends on active self-updating fails the same way the WhatsApp group already does.</p>
+    <p class="pain-point">Frequent commuters have no reliable way to find a committed co-traveler in time, because their only channel — one relatively inactive WhatsApp group — consistently fails to produce a timely response, forcing them to travel alone.</p>
   </article>
 
   <article class="block">
     <h2>User stories</h2>
     <ol class="story-list">
-      <li>As a frequent commuter, I want my route and time to be visible beyond my one friend group, so that I'm not stuck waiting on an inactive chat.</li>
-      <li>As someone looking for a travel partner, I want a clear, explicit commitment signal rather than a casual reply, so that I know a "yes" is reliable.</li>
-      <li>As a traveler open to going with people outside my circle, I want to see nearby commuters on the same route, so that my options aren't limited to one group chat.</li>
-      <li>As a commuter who won't reliably update my own status, I want the system to capture my intent with minimal effort, so that it stays accurate without depending on my discipline.</li>
+      <li>As a frequent commuter, I want my route and travel time visible beyond my one friend group, so that I'm not dependent on a single inactive chat.</li>
+      <li>As someone looking for a travel partner, I want to see other commuters heading the same way in real time, so that I have options beyond whoever happens to be active in one group.</li>
+      <li>As a traveler open to going with people outside my immediate circle, I want to be notified the moment a match appears, so that I don't have to keep checking manually.</li>
+      <li>As a commuter, I want the system to surface matches automatically rather than requiring me to maintain an active profile, so that it stays useful without depending on my own discipline.</li>
     </ol>
   </article>
 </section>
@@ -323,7 +317,7 @@
 
   <article class="block">
     <h2>The hardest call — DFV matrix</h2>
-    <p>Match notification and Trust badge were debated hardest for the final Must-Have slot — both map directly to a named research finding: Aaryan's inactive-group problem versus Elizabeth's ditching/reliability problem.</p>
+    <p>Match notification and Trust badge were debated hardest for the final Must-Have slot. Match notification answers the core pain point directly — the failure of a single inactive channel to produce a timely response. Trust badge, while valuable, addresses a related but secondary concern rather than the validated root cause.</p>
     <table class="dfv-table">
       <thead>
         <tr><th>Feature</th><th>Desirability</th><th>Feasibility</th><th>Viability</th><th>Total</th></tr>
